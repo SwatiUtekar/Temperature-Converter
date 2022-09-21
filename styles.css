@@ -1,0 +1,41 @@
+body{
+  background-color: #377D71;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: cursive;
+}
+
+h1{
+  font-size: 50px;
+  color: white;
+  margin-top: 0;
+  margin-left: 10%;
+}
+
+.inner-container{
+  text-align: center;
+  background-color: #90C8AC;
+  padding: 80px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.temp-container{
+  display: inline-block;
+}
+
+label{
+  font-size: 25px;
+}
+
+.input-temp{
+  padding: 12px 15px;
+  margin: 0 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin: 20px;
+  font-size: 17px;
+  font-weight: bold;
+}

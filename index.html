@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Temperature Converter</title>
+
+    <!-- Font Awesome-->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Temperature Converter</h1>
+      <div class="inner-container">
+        <!-- <p><i class="fa-light fa-temperature-quarter"></i></p> -->
+        <div class="temp-container">
+          <label class="temp-unit">Celsius</label><br>
+          <input type="number" class="input-temp" id="cel" value="0" oninput="fahrConverter()">
+        </div>
+        <div class="temp-container">
+          <label class="temp-unit">Fahrenheit</label><br>
+          <input type="number" class="input-temp" id="fahr" value="32" oninput="celConverter()">
+        </div>
+      </div>
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
